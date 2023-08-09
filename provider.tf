@@ -10,7 +10,7 @@ terraform {
 provider "google" {
   # Configuration options
   project = "anthos-installation"
-  region  = "us-west1"
-  zone    = "us-west1-a"
+  region  = "us-central1"
+  zone    = "us-central1-a"
   credentials  ="keys.json"
 }
